@@ -38,5 +38,5 @@ if __name__ == "__main__":
     input_v = parse_input()
     print('This is my first .py file.')
     printHello(input_v.name)
-    days_since_birthday = cal_days_since_birthday(input_v.bd)
+    days_since_birthday = cal_days_from_birthday(input_v.bd)
     print(f'I have been {days_from_birthday} days from your birthday!')

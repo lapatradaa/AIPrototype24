@@ -14,7 +14,7 @@ def parse_input():
     parser.add_argument(
         '--name',
         type=str,
-        default='Thnanaphorn',
+        default='Lapatrada',
         help='Input the name of the user'
     )
 
@@ -24,7 +24,7 @@ def parse_input():
 def printHello(who):
     print(f"Hello World!, {who}!!")
 
-def cal_days_since_birthday(bd):
+def cal_days_from_birthday(bd):
     today = datetime.today()
     birth_date = datetime.strptime(bd, '%Y%m%d')
 
@@ -39,4 +39,4 @@ if __name__ == "__main__":
     print('This is my first .py file.')
     printHello(input_v.name)
     days_since_birthday = cal_days_since_birthday(input_v.bd)
-    print(f'It has been {days_since_birthday} days since your birthday!')
+    print(f'I have been {days_from_birthday} days from your birthday!')

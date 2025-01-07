@@ -40,3 +40,5 @@ if __name__ == "__main__":
     printHello(input_v.name)
     days_from_birthday = cal_days_from_birthday(input_v.bd)
     print(f'I have been {days_from_birthday} days from your birthday!')
+
+#HW1

@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, render_template_string
 import random
 
-
 app = Flask(__name__)
 
 @app.route("/") 
@@ -11,8 +10,6 @@ def helloworld():
 @app.route("/stat") 
 def helloSTAT():
     return "Hello, STAT KKU!"
-
-(__name__)
 
 @app.route("/research")
 def research_page():
@@ -37,7 +34,6 @@ def research_page():
     faculty, research_projects = random.choice(list(faculty_research.items()))
     
     return render_template("research.html", faculty=faculty, research_projects=research_projects)
-
 
 @app.route("/statHTML") 
 def helloSTAThtml():
@@ -97,32 +93,70 @@ def helloSTAThtml():
             <p>Department of Statistics, Khon Kaen University</p>
         </header>
         <nav>
-            <a href="/statHTML#about">About Us</a>
-            <a href="/statHTML#programs">Programs</a>
+            <a href="#about">About Us</a>
+            <a href="#programs">Programs</a>
             <a href="/research">Research</a>
-            <a href="/contact">Contact</a>
+            <a href="/htmlcontact">Contact</a>
         </nav>
         <main>
-            <section id="about">
+  <section id="about">
                 <h2>About Us</h2>
-                <p>The Department of Statistics at Khon Kaen University is a center of excellence for education and research in statistics.</p>
-                <p>We strive to nurture students with the knowledge and skills needed for data-driven decision-making in various industries.</p>
-                <p>Our department is committed to providing a dynamic learning environment that bridges theoretical knowledge and real-world application.</p>
-                <p>We pride ourselves on our highly qualified faculty, who are leaders in their respective areas of statistical expertise.</p>
-                <p>With strong ties to industry and academic institutions, we ensure our students are prepared for global challenges.</p>
-                <p>We host regular workshops, seminars, and guest lectures to keep our students and faculty updated with the latest advancements in statistics and data science.</p>
-                <p>Our state-of-the-art facilities and advanced software tools provide students with a hands-on learning experience.</p>
-                <p>Many of our alumni have achieved great success in fields such as finance, healthcare, technology, and academia.</p>
-                <p>Our focus on research encourages students to contribute to solving pressing issues in society through statistical methodologies.</p>
-                <p>Join us at Stat KKU, where we turn passion for data into impactful solutions for the future.</p>
+                    <p>
+                    1. The Department of Statistics at Khon Kaen University offers a wide range of undergraduate and graduate programs designed to equip students with a deep understanding of statistical theory and its practical applications. The curriculum emphasizes both foundational knowledge and the latest advancements in the field, preparing students for diverse career opportunities in academia, industry, and government.
+                    </p>
+                    <p>
+                    2. Faculty members at the department are accomplished researchers with expertise in areas such as data science, machine learning, biostatistics, econometrics, and experimental design. Their research contributes to solving real-world problems, from analyzing big data to improving healthcare outcomes, making the department a hub for innovative statistical research in Southeast Asia.
+                    </p>
+                    <p>
+                    3. The department prides itself on fostering a supportive learning environment where students are encouraged to explore their interests and develop critical thinking skills. Through interactive lectures, hands-on workshops, and collaborative projects, students gain practical experience in statistical programming, data visualization, and predictive modeling.
+                    </p>
+                    <p>
+                    4. Beyond the classroom, the department is actively engaged in community outreach and collaborative research initiatives. Faculty and students frequently work with local organizations and industries, providing statistical expertise to enhance decision-making processes in areas such as agriculture, education, public health, and environmental management.
+                    </p>
+                    <p>
+                    5. The department also houses state-of-the-art facilities, including computer labs equipped with the latest statistical software and tools. These resources enable students to work on cutting-edge research projects, analyze complex datasets, and apply their skills to solve pressing societal challenges.
+                    </p>
+                    <p>
+                    6. One of the department's key goals is to stay at the forefront of statistical education by integrating emerging technologies such as artificial intelligence and cloud computing into its programs. This ensures that graduates are well-prepared to navigate the rapidly evolving landscape of data science and analytics.
+                    </p>
+                    <p>
+                    7. The department regularly organizes academic events, including workshops, seminars, and conferences, to bring together leading statisticians, researchers, and practitioners from around the world. These events provide valuable networking opportunities for students and faculty and foster a culture of knowledge exchange and innovation.
+                    </p>
+                    <p>
+                    8. In addition to academic pursuits, the department emphasizes the importance of ethics and social responsibility in the application of statistics. Students are encouraged to consider the broader implications of their work, ensuring that statistical analyses are conducted with integrity, transparency, and a focus on societal benefit.
+                    </p>
+                    <p>
+                    9. Alumni of the Department of Statistics at Khon Kaen University have gone on to excel in various fields, including finance, technology, healthcare, and education. Their achievements serve as a testament to the department's commitment to producing well-rounded, skilled professionals who make meaningful contributions to society.
+                    </p>
+                    <p>
+                    10. As the demand for statistical expertise continues to grow, the Department of Statistics at Khon Kaen University remains dedicated to its mission of advancing statistical knowledge through high-quality education, impactful research, and meaningful community engagement. By nurturing the next generation of statisticians, the department aims to play a pivotal role in shaping a data-driven future.
+                    </p>
+
             </section>
             <section id="programs">
                 <h2>Programs</h2>
-                <p>We offer undergraduate and postgraduate programs in statistics to prepare students for successful careers.</p>
+                <p>We offer a comprehensive range of undergraduate and postgraduate programs in statistics, tailored to equip students with the knowledge and skills necessary for success in both academic and professional settings. Our undergraduate program covers fundamental statistical theory, while the graduate programs offer specialized courses in areas such as data science, machine learning, biostatistics, and econometrics. Graduates are well-prepared to embark on diverse career paths in industries such as healthcare, finance, technology, and government.</p>
+                <p>Our graduate programs include a Master's degree and a Ph.D. program that focus on advanced statistical techniques, cutting-edge research, and real-world applications. Students have the opportunity to work closely with faculty on innovative research projects, contributing to global advancements in statistical science.</p>
+                <p>In addition, we offer professional development programs and workshops designed to help students and industry professionals keep up-to-date with the latest trends and technologies in the field of statistics.</p>
             </section>
+
             <section id="research">
                 <h2>Research</h2>
-                <p>Our faculty members are engaged in cutting-edge research to address real-world challenges using statistical methods.</p>
+                <p>Our faculty members are at the forefront of statistical research, contributing to a wide range of interdisciplinary fields. Through their work, they address real-world challenges by applying advanced statistical methods and tools. Research areas include, but are not limited to, data science, artificial intelligence, biostatistics, financial modeling, environmental statistics, and public health analysis. Their efforts have not only expanded the body of statistical knowledge but also provided practical solutions to pressing issues faced by society.</p>
+                <p>Our research initiatives often involve collaboration with government agencies, healthcare organizations, and industry leaders, ensuring that our work has a tangible impact on real-world problems. Students and faculty participate in research projects that explore diverse topics such as predictive modeling for healthcare, statistical methods for climate change analysis, and the use of machine learning algorithms for financial forecasting.</p>
+                <p>The department organizes and hosts various research seminars, workshops, and conferences to foster collaboration between statisticians, researchers, and practitioners. These events provide an excellent opportunity for students to engage with experts in the field, gain insights into cutting-edge developments, and contribute to ongoing discussions about the future of statistics and data science.</p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>If you have any questions or inquiries about our programs, research, or any other aspect of the Department of Statistics, please feel free to contact us.</p>
+                <p>Email: <a href="mailto:info@statkku.ac.th">info@statkku.ac.th</a></p>
+                <p>Phone: <a href="tel:+6612345678">+66-1234-5678</a></p>
+                <p>Location: Department of Statistics, Khon Kaen University, Khon Kaen, Thailand.</p>
+                <p>Our department is located on the university campus, easily accessible for both visitors and students. Feel free to drop by our office during business hours for more information, or get in touch through email or phone.</p>
+                <p>We also have a presence on social media where we share the latest updates, research highlights, and events. Follow us on:</p>
+
+                <p>Our team is happy to assist with any inquiries and provide further details about our department and programs. We look forward to connecting with you!</p>
             </section>
         </main>
         <footer>
@@ -132,11 +166,11 @@ def helloSTAThtml():
     </html>
     """
 
-@app.route("/contact",methods=["GET", "POST"])
+@app.route("/htmlcontact",methods=["GET", "POST"])
 def contact_page():
     if request.method == "POST":
         user_email = request.form.get("email")
-        with open("email.txt", "a") as myfile:
+        with open("email.text", "a") as myfile:
             myfile.write(f'{user_email} \n')
         return render_template_string("""
         <!DOCTYPE html>
@@ -180,6 +214,17 @@ def contact_page():
                     font-size: 0.9rem;
                     color: #666;
                 }
+                button {
+                    background-color: #0078d7;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #005ea6;
+                }
             </style>
         </head>
         <body>
@@ -187,19 +232,20 @@ def contact_page():
                 <h1>Contact Us</h1>
             </header>
             <main>
-                <h2><a href="/statHTML">Admin</a> Contact Details</h2>
+                <h2>Admin Contact Details</h2>
                 <p><strong>Name:</strong> John Doe</p>
                 <p><strong>Email:</strong> admin@example.com</p>
-                <p><strong>Phone:</strong> +1-234-567-890</p>
+                <p><strong>Phone:</strong> +66-234-567-890</p>
                 <p>If you have any questions or need assistance, please don’t hesitate to reach out. Our admin is here to help you!</p>
                 <h2>Thank you {{user}}</h2>
+                <a href="/statHTML"><button>Back</button></a>
             </main>
             <footer>
                 <p>&copy; 2025 Stat KKU. All rights reserved.</p>
             </footer>
         </body>
         </html>
-        """,user=user_email)
+        """, user=user_email)
     else:
         return """
         <!DOCTYPE html>
@@ -243,6 +289,17 @@ def contact_page():
                     font-size: 0.9rem;
                     color: #666;
                 }
+                button {
+                    background-color: #0078d7;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #005ea6;
+                }
             </style>
         </head>
         <body>
@@ -268,8 +325,37 @@ def contact_page():
         </body>
         </html>
         """
-        
-        
+
+##api
+@app.route('/simpleAPI', methods=['POST'])
+def simpleAPI():
+    try:
+        # รับข้อมูลจาก request
+        payload = request.data.decode("utf-8")
+        inmessage = json.loads(payload)
+
+        # แสดงข้อมูลที่ได้รับใน log
+        print("\n[INFO] นี่คือข้อมูลที่ได้รับจากผู้ใช้:")
+        print(f"----------------------------")
+        print(f"ข้อความที่ได้รับ: {inmessage.get('msg')}")
+        print(f"ชื่อผู้ส่ง: {inmessage.get('ผู้ส่ง')}")
+        print(f"ชื่อผู้รับ: {inmessage.get('ผู้รับ')}")
+        print(f"IP ของผู้รับ: {inmessage.get('ip')}")
+        print(f"----------------------------\n")
+
+        # สร้างข้อมูลที่ต้องการส่งกลับ
+        json_data = json.dumps({'y': 'received!'})
+
+        # ส่งข้อมูลกลับไป
+        return json_data, 200  # คืนค่า HTTP Status 200 เพื่อบอกว่า request สำเร็จ
+
+    except Exception as e:
+        # ในกรณีเกิดข้อผิดพลาด
+        error_message = f"[ERROR] ข้อผิดพลาด: {str(e)}"
+        print(error_message)
+
+        # ส่งข้อผิดพลาดกลับไป
+        return jsonify({'error': 'เกิดข้อผิดพลาด'}), 400
 
 if __name__ == "__main__":   # run code 
-    app.run()
+    app.run(host='0.0.0.0',debug=True,port=5000)

@@ -426,8 +426,8 @@ x = requests.post(url, data = json.dumps(myobj))
 <details> 
 <summary> HW2 Send messages to friends using the server. </summary> 
   
-[`firstflask.py`]> https://github.com/lapatradaa/AIPrototype24/blob/main/firstflask.py
-['call_webservice.py'] > https://github.com/lapatradaa/AIPrototype24/blob/main/call_web_service.py****
+firstflask.py > https://github.com/lapatradaa/AIPrototype24/blob/main/firstflask.py
+call_webservice.py > https://github.com/lapatradaa/AIPrototype24/blob/main/call_web_service.py
       
 
 

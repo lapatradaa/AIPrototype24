@@ -1,6 +1,8 @@
 # AIPrototype24
 AI Prototyping  2024 Lapatrada Dangsungnoen
 
+## click here to see [my web page](https://kwansawanth.github.io/OPG-SPELL-page/)
+
 ## **Class**
 
 | CLASS | DATE     | DESCRIPTION          | LECTURE |

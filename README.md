@@ -53,7 +53,7 @@
 - Sending messages using REST APIs
 
 ### 📂 Deep Learning
-- (To be added in Lecture 7)
+- [Lecture 7](https://github.com/lapatradaa/AIPrototype24/blob/main/lec7.pdf)
 
 ## **Assignments**
 

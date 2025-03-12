@@ -7,13 +7,13 @@ AI Prototyping  2024 Lapatrada Dangsungnoen
 
 | CLASS | DATE     | DESCRIPTION          | LECTURE |
 |-------|----------|----------------------|---------|
-| I     | 02/12/67 | Ubuntu Command Line | [Lecture 1.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec1.md) |
-| II    | 11/12/67 | Virtual Machines    | [Lecture 2.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec2.md) |
-| III   | 24/12/67 | CloudVM             | [Lecture 3.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec3.md) |
-| IV    | 07/01/68 | Web page            | [Lecture 4.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec4.md) |
-| V     | 21/01/68 | Environment Conda   | [Lecture 5.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec5.md) |
-| VI    | 19/02/68 | Web Service         | [Lecture 6.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec6.md) |
-| VII   | 11/03/68 | Deep Learning       | [Lecture 7.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec7.pdf) |
+| I     | 02/12/24 | Ubuntu Command Line | [Lecture 1.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec1.md) |
+| II    | 11/12/24 | Virtual Machines    | [Lecture 2.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec2.md) |
+| III   | 24/12/24 | CloudVM             | [Lecture 3.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec3.md) |
+| IV    | 07/01/25 | Web page            | [Lecture 4.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec4.md) |
+| V     | 21/01/25 | Environment Conda   | [Lecture 5.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec5.md) |
+| VI    | 19/02/25 | Web Service         | [Lecture 6.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec6.md) |
+| VII   | 11/03/25 | Deep Learning       | [Lecture 7.md](https://github.com/lapatradaa/AIPrototype24/blob/main/lec7.pdf) |
 
 
 # Contents

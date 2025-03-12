@@ -18,9 +18,6 @@
 
 ## **Contents**
 
-<details>
-  <summary> [README](https://github.com/lapatradaa/AIPrototype24/blob/main/README.md)</summary>
-</details>
 
 <details>
   <summary> Ubuntu on Windows (Windows Subsystem for Linux - WSL)</summary>

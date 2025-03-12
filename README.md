@@ -1,6 +1,6 @@
 # AIPrototype24
 
-## AI Prototyping 2024 - Lapatrada Dangsungnoen
+## Lapatrada Dangsungnoen(643020518-9)
 
 ### [Click here to see my web page](https://kwansawanth.github.io/OPG-SPELL-page/)
 
